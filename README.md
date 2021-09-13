@@ -43,3 +43,8 @@
 ### 21.09.12 - Day_9 - 30
     프로그래머스 - 네트워크
     - 내가 DFS, BFS에 너무 약하다. 초급 문제들 부터 봐야겠다.
+
+### 21.09.13 - Day_9 -31
+    백준 - DFS와 BFS
+    - DFS/BFS 추가 문제
+    https://huiyu.tistory.com/entry/DFSBFS-%EC%88%99%EB%8B%AC%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%EA%B8%B0%EB%B3%B8%EC%9D%91%EC%9A%A9
