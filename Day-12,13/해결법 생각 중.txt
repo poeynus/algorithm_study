@@ -1,14 +1,13 @@
 1. 입력 받고 그 크기 만큼 visited 선언하기 => visited[[False] for _ in range(len(입력 값)+1)]
 2. 입력 받은 크기 만큼 for 선언 하기
-3-1. 현재 값이 0이면 pass 
-3-2. 현재 값이 1이면 dfs 시작하기 
+3-1. 현재 값이 '0'이면 pass 
+3-2. 현재 값이 '1'이면 dfs 시작하기 
 
-3-2-1. dfs 시작 하면서 visited True, count +1
+3-2-1. dfs 시작 하면서 현재 위치를 0으로 바꾸기, count +1
 
 
-상 하 좌 우 좌표를 만들어야 할 거 같음
+상 하 좌 우 방향키 만들기
 
-기본 dfs 먼저 혼자서 짤 수 있을 정도의 숙달이 되어야 할 거 같다.
 https://www.youtube.com/watch?v=7C9RgOcvkvo&ab_channel=%EB%8F%99%EB%B9%88%EB%82%98
 
 def dfs(graph, v, visited):
@@ -17,3 +16,17 @@ def dfs(graph, v, visited):
     for i in graph[v]:
         if not visited[i]:
             dfs(graph, i, visited)
+
+7
+0110100
+0110101
+1110101
+0000111
+0100000
+0111110
+0111000
+
+3
+7
+8
+9
