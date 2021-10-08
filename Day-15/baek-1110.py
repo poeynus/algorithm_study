@@ -1,15 +1,22 @@
-n = int(input())
+
+
+
+n = input()
+last = int(n)
 count = 0
-t = n
-
+nl = list(n)
+if len(nl) < 2:
+    nl.append(n)
+print(list(str(int(nl[0]) + int(nl[1]))))
 while True:
-    count += 1
-    a = t // 10
-    b = t % 10
-    c = a + b
-    t = (b * 10) + (c % 10)
-
-    if(n == t):
-        break
-
+  nl2 = list(str(int(nl[0]) + int(nl[1])))
+  if len(nl2) < 2:
+    nl2.append(nl2[0])
+  nl2 = nl[1] + nl2[1]
+  print(int(nl2))
+  n = nl2
+  nl = list(n)
+  count +=1
+  if int(nl2) == last:
+    break
 print(count)

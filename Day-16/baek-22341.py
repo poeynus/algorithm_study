@@ -6,10 +6,10 @@ r_y = n
 for i in range(tc):
     x, y = map(int, input().split())
 
-    if x >= n or y >= n or x == 0 or y == 0:
+    if x >= r_x or y >= r_y:
         continue
 
-    if x * r_y >= r_x * y:
+    elif x * r_y >= r_x * y:
         r_x = x
     
     else:
