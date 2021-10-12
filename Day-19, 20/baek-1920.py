@@ -1,7 +1,7 @@
 import sys
 
 n = int(input())
-n_list = list(sys.stdin.readline().split())
+n_list = set(sys.stdin.readline().split())
 m = int(input())
 m_list = list(sys.stdin.readline().split())
 
