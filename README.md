@@ -131,3 +131,10 @@
 
     백준 - 간단한 거 3문제
     - 근데 1065번 설명이 좀 부족하다 이해하기가 어려움
+
+### 21.10.22 - Day-24 - 93
+
+    백준 - 오랜만에 올림피아드 문제
+    - 간단하게 풀렸음
+    - 분산 문제에서 같은 제곱 함수여도 시간 복잡도가 차이가 있다는 것을 알게 됨
+    - https://stackoverflow.com/questions/48839772/why-is-time-complexity-o1-for-powx-y-while-it-is-on-for-xy
