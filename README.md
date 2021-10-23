@@ -138,3 +138,8 @@
     - 간단하게 풀렸음
     - 분산 문제에서 같은 제곱 함수여도 시간 복잡도가 차이가 있다는 것을 알게 됨
     - https://stackoverflow.com/questions/48839772/why-is-time-complexity-o1-for-powx-y-while-it-is-on-for-xy
+
+### 21.10.23 - Day-25 -94
+
+    백준 - 아 안풀린다.
+    - 좀 쉬다가 다시 와야 할 듯 집중이 안되네 2일 정도만 쉬자
