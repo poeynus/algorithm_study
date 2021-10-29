@@ -18,20 +18,35 @@ def solution(numbers, hand):
             l_hand = phone[7]
         elif i == 3:
             result.append("R")
-            l_hand = phone[3]
+            r_hand = phone[3]
         elif i == 6:
             result.append("R")
-            l_hand = phone[6]
+            r_hand = phone[6]
         elif i == 9:
             result.append("R")
-            l_hand = phone[7]
+            r_hand = phone[7]
         else:
-            pass
-    
-    answer = ''
+            n = phone[i]
+            l_dist = abs(n[0] - l_hand[0]) + abs(n[1] - l_hand[1])
+            r_dist = abs(n[0] - r_hand[0]) + abs(n[1] - r_hand[1])
+            
+            if(l_dist > r_dist):
+                result.append("R")
+                r_hand = n
+            elif(l_dist < r_dist):
+                result.append("L")
+                l_hand = n
+            else:
+                if hand == "right":
+                    result.append("R")
+                    r_hand = phone[i]
+                else:
+                    result.append("L")
+                    l_hand = phone[i]
+    answer = ''.join(result)
     return answer
 
-solution([1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5],	"right")
+solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2],	"left")
 
 # [1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5]	"right"	"LRLLLRLLRRL"
 # [7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2]	"left"	"LRLLRRLLLRR"
