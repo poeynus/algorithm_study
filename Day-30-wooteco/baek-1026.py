@@ -1,3 +1,30 @@
+n = int(input())
+
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+result = 0
+
+for _ in range(n):
+    result = result + (max(a) * min(b))
+    a.remove(max(a))
+    b.remove(min(b))
+
+print(result)
+
+def sec():
+    n = int(input())
+
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    result = 0
+
+    a.sort()
+    b.sort(reverse=True)
+
+    for i in range(n):
+        result = result + (a[i] * b[i])
+
+    print(result)
 
 
 
