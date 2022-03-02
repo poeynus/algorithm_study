@@ -1,6 +1,9 @@
 # 알고리즘 공부
 
-#### 공부하는데 참조하는 사이트 - https://covenant.tistory.com/234
+### [코딩테스트 시작을 위한 백준 문제 추천](https://covenant.tistory.com/234)
+### [알고리즘에 고통받는 취준생을 위한 안내서](https://www.notion.so/4e7f47700af341f4b649e4cad0c4fb30)
+
+&nbsp;
 
 <details>
 <summary>2021</summary>
@@ -222,6 +225,6 @@
 
     알고리즘 다시 시작
     - 지구가 돌아가기 시작했다.
-    
+    - 오랜만에 하니까 머리 아프네
 </div>
 </details>
