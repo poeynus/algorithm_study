@@ -1,16 +1,10 @@
 # 알고리즘 공부
 
-### 코드가 간단하며 시간을 줄이고 효율적으로 동작 하는 것을 목표로
-
-&nbsp;
-
-#### 사용 언어 python
-
 #### 공부하는데 참조하는 사이트 - https://covenant.tistory.com/234
 
-#### 주말에는 다른 사람이 작성한 숏 코딩을 보면서 따라해보기
-
-&nbsp;
+<details>
+<summary>2021</summary>
+<div markdown="1">
 
 ### 21.09.02 - Day_01
 
@@ -217,15 +211,17 @@
 
     백준 1개
     
-### 22.01.20 - Day-0
+</div>
+</details>
 
-    SW 마에스트로 준비 해보자
+<details>
+<summary>2022</summary>
+<div markdown="2">
+
+### 22.03.02
+
+    알고리즘 다시 시작
+    - 지구가 돌아가기 시작했다.
     
-### 22.01.21 - Day-0
-
-    마음 가다듬기
-
-### 22.02.05
-    
-    SW 마에스츠로 02-17
-    react-native
+</div>
+</details>
