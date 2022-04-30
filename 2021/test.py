@@ -1,16 +1,18 @@
-def solution(sizes):
-  big_list = []
-  small_list = []
-
-  for i in sizes:
-    if i[0] < i[1]: 
-      i[0], i[1] = i[1], i[0]
-    big_list.append(i[0])
-    small_list.append(i[1])
-
-  return max(big_list) * max(small_list)
+def solution(files):
+    answer = []
+    print('hi')
+    return answer
 
 
-solution([[60, 50], [30, 70], [60, 30], [80, 40]])
+solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"])
 
-# 큰 값을 왼쪽으로 몰고 작은 값을 오른쪽으로 몰고 max 해서 구하면 되지 않을까?
+# 입력: ["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]
+# 출력: ["img1.png", "IMG01.GIF", "img02.png", "img2.JPG", "img10.png", "img12.png"]
+
+# 입력: ["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"]
+# 출력: ["A-10 Thunderbolt II", "B-50 Superfortress", "F-5 Freedom Fighter", "F-14 Tomcat"]
+
+# 입력 받고 3단계로 나눠 HEAD, NUMBER, TAIL
+# HEAD는 입력 받고 소문자로 변환 후 숫자가 나오기 전까지로 끊기
+# NUMBER는 숫자인지 아닌지만
+# TAIL은 나머지 
