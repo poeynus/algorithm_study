@@ -30,6 +30,7 @@ def dfs(x, ary, ch):
         b += ary[i]
     if a == b:
       flag = True
+      return
     else:
       a = 0
       b = 0
