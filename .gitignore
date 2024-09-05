@@ -1,3 +1,5 @@
 Day-33-wootecoDay
 /2022/code_test
 .DS_Store
+/venv/
+.idea/
